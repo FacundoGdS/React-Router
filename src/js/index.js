@@ -10,5 +10,3 @@ import Layout from '././component/VIEWS/Layout.jsx';
 
 //render your react application
 ReactDOM.render(<Layout />, document.querySelector("#app"));
-
-//Lo deje por el minuto 20 o 29 vos fijate
