@@ -7,6 +7,7 @@ import Home from "./Home.jsx";
 import About from "./About.jsx";
 import Users from "./Users.jsx";
 import Navbar from "./Navbar.jsx";
+import NotFound from "./NotFound.jsx";
 
 const Layout = () => {
     return (
@@ -21,6 +22,9 @@ const Layout = () => {
                 </Route>
                 <Route exact path="/users/:userid/:username">
                     <Users/>
+                </Route>
+                <Route>
+                    <NotFound/>
                 </Route>
             </Switch>
         </Router>
