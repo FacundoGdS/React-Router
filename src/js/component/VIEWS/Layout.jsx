@@ -19,7 +19,7 @@ const Layout = () => {
                 <Route exact path="/about">
                     <About/>
                 </Route>
-                <Route exact path="/users">
+                <Route exact path="/users/:userid/:username">
                     <Users/>
                 </Route>
             </Switch>
